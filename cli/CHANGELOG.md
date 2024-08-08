@@ -1,5 +1,182 @@
 # Changelog
 
+## 7.36.2
+
+### Patch Changes
+
+- [#1945](https://github.com/t3-oss/create-t3-app/pull/1945) [`9eea9fb5f6d26d42944a660bfcee5f7fb33438ad`](https://github.com/t3-oss/create-t3-app/commit/9eea9fb5f6d26d42944a660bfcee5f7fb33438ad) Thanks [@datasalaryman](https://github.com/datasalaryman)! - resolve client error during getLatest trpc call
+
+- [#1948](https://github.com/t3-oss/create-t3-app/pull/1948) [`3a1b94d29a3addc783e2d6645c2e88a5b7273174`](https://github.com/t3-oss/create-t3-app/commit/3a1b94d29a3addc783e2d6645c2e88a5b7273174) Thanks [@keyding](https://github.com/keyding)! - Update seed.ts in prisma in documentation
+
+- [#1940](https://github.com/t3-oss/create-t3-app/pull/1940) [`46a4e2d144da8b184bf39444b19e0b1bd00bab2b`](https://github.com/t3-oss/create-t3-app/commit/46a4e2d144da8b184bf39444b19e0b1bd00bab2b) Thanks [@KrishanGoyal1](https://github.com/KrishanGoyal1)! - changed default password error message for `start-database` script
+
+## 7.36.1
+
+### Patch Changes
+
+- [#1937](https://github.com/t3-oss/create-t3-app/pull/1937) [`5a0cbc53afb8597d6da2bc6d184ea1427e741cec`](https://github.com/t3-oss/create-t3-app/commit/5a0cbc53afb8597d6da2bc6d184ea1427e741cec) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - chore: dependency bumps
+
+## 7.36.0
+
+### Minor Changes
+
+- [#1932](https://github.com/t3-oss/create-t3-app/pull/1932) [`42a485a29370fbfe4f03e5f756d97c0fee0b09e8`](https://github.com/t3-oss/create-t3-app/commit/42a485a29370fbfe4f03e5f756d97c0fee0b09e8) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - feat: add trpc rsc prefetching
+
+### Patch Changes
+
+- [#1934](https://github.com/t3-oss/create-t3-app/pull/1934) [`1cfbb117c892905ea956a597aa6d48e9984b1190`](https://github.com/t3-oss/create-t3-app/commit/1cfbb117c892905ea956a597aa6d48e9984b1190) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - remove duplicate `<main>` tags
+
+- [#1931](https://github.com/t3-oss/create-t3-app/pull/1931) [`a1a4b8707b95b82e755733b2853ac595bb9d4829`](https://github.com/t3-oss/create-t3-app/commit/a1a4b8707b95b82e755733b2853ac595bb9d4829) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - fix: unify drizlze schema and fix sqlite timestamps
+
+## 7.35.0
+
+### Minor Changes
+
+- [#1905](https://github.com/t3-oss/create-t3-app/pull/1905) [`b22e2e10d005689faa7b1db771a217b59c88635f`](https://github.com/t3-oss/create-t3-app/commit/b22e2e10d005689faa7b1db771a217b59c88635f) Thanks [@jessedelira](https://github.com/jessedelira)! - Add .idea to .gitignore
+
+### Patch Changes
+
+- [#1909](https://github.com/t3-oss/create-t3-app/pull/1909) [`f69fa29733d3bd0d6e5043d1200e250a938b6335`](https://github.com/t3-oss/create-t3-app/commit/f69fa29733d3bd0d6e5043d1200e250a938b6335) Thanks [@TheDevilOnLine](https://github.com/TheDevilOnLine)! - fix: Added $defaultFn to the user table's id field when using Drizzle to fix #1906
+
+## 7.34.0
+
+### Minor Changes
+
+- [#1893](https://github.com/t3-oss/create-t3-app/pull/1893) [`1925236bcfcafc6c490319ab5f07b2a698e88ef5`](https://github.com/t3-oss/create-t3-app/commit/1925236bcfcafc6c490319ab5f07b2a698e88ef5) Thanks [@brandon93s](https://github.com/brandon93s)! - Add `db:generate` and `db:migrate` scripts to drizzle and prisma installers
+
+### Patch Changes
+
+- [#1891](https://github.com/t3-oss/create-t3-app/pull/1891) [`4236f0dfa969ff0d8b7ce2a60b5595c43ced9043`](https://github.com/t3-oss/create-t3-app/commit/4236f0dfa969ff0d8b7ce2a60b5595c43ced9043) Thanks [@thecmdrunner](https://github.com/thecmdrunner)! - Apply drizzle rules for `ctx.db` object in tRPC context
+
+## 7.33.1
+
+### Patch Changes
+
+- [#1884](https://github.com/t3-oss/create-t3-app/pull/1884) [`f148deb`](https://github.com/t3-oss/create-t3-app/commit/f148debf74e16b61dae89c684fbc9ac1d97ac2c8) Thanks [@Irere123](https://github.com/Irere123)! - fix: remove deprecated push command in drizzle package.json scripts (…
+  )
+
+## 7.33.0
+
+### Minor Changes
+
+- [#1821](https://github.com/t3-oss/create-t3-app/pull/1821) [`4de1927`](https://github.com/t3-oss/create-t3-app/commit/4de1927489aa2d0cf61313ea1543f85268c0e645) Thanks [@kakeWasTaken](https://github.com/kakeWasTaken)! - change default font from Inter to Geist Sans
+
+### Patch Changes
+
+- [#1881](https://github.com/t3-oss/create-t3-app/pull/1881) [`9e5e7d0`](https://github.com/t3-oss/create-t3-app/commit/9e5e7d0c4342542fec18fdc97552b494fe31f5a3) Thanks [@gcjbr](https://github.com/gcjbr)! - chore: update `drizzle-kit` to `0.21.0`
+
+## 7.32.1
+
+### Patch Changes
+
+- [#1867](https://github.com/t3-oss/create-t3-app/pull/1867) [`304a67f`](https://github.com/t3-oss/create-t3-app/commit/304a67f5bde05116b143c86588546af02e86cfda) Thanks [@xelacast](https://github.com/xelacast)! - Parsed --dbprovider flag correctly and added related error message
+
+- [#1860](https://github.com/t3-oss/create-t3-app/pull/1860) [`b5ced34`](https://github.com/t3-oss/create-t3-app/commit/b5ced343f8a7fbc889a113ec05bef6c5e550cd55) Thanks [@victor-falcon](https://github.com/victor-falcon)! - Load PORT in start-database script
+
+- [#1871](https://github.com/t3-oss/create-t3-app/pull/1871) [`f29a69f`](https://github.com/t3-oss/create-t3-app/commit/f29a69fcc300db539fe0cfa9f52858551e89b869) Thanks [@xelacast](https://github.com/xelacast)! - Fixed project creation of . bug in ./start-database.sh
+
+- [#1858](https://github.com/t3-oss/create-t3-app/pull/1858) [`29348b6`](https://github.com/t3-oss/create-t3-app/commit/29348b6b4f11d7f19915be6639e3c5aaa27b8907) Thanks [@lcabraja](https://github.com/lcabraja)! - Added drizzle's db.sqlite location to .gitignore
+
+## 7.32.0
+
+### Minor Changes
+
+- [#1842](https://github.com/t3-oss/create-t3-app/pull/1842) [`088a773`](https://github.com/t3-oss/create-t3-app/commit/088a773103a03e0ec34cbe22329ead33cd80c5ff) Thanks [@nick22985](https://github.com/nick22985)! - Infers tRPC input & output types to the client for app router
+
+- [#1841](https://github.com/t3-oss/create-t3-app/pull/1841) [`41bd524`](https://github.com/t3-oss/create-t3-app/commit/41bd5240276f1029633cde588b0ca08301c4e78c) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - mark app router as stable
+
+### Patch Changes
+
+- [#1838](https://github.com/t3-oss/create-t3-app/pull/1838) [`ff886b3`](https://github.com/t3-oss/create-t3-app/commit/ff886b3fed4b193b8fc85882a71c7e8085457cf0) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - bump zod and t3-env
+
+## 7.31.0
+
+### Minor Changes
+
+- [#1830](https://github.com/t3-oss/create-t3-app/pull/1830) [`3257d0a`](https://github.com/t3-oss/create-t3-app/commit/3257d0a2fe73847b501bdf36f09053638b4a41a4) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - feat: replace better-sqlite3 with libsql
+
+### Patch Changes
+
+- [`ab5fa95`](https://github.com/t3-oss/create-t3-app/commit/ab5fa95afce2a0feb8567aed6bb02beeef1401e5) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - chore: pin zod version
+
+- [#1835](https://github.com/t3-oss/create-t3-app/pull/1835) [`f66e30a`](https://github.com/t3-oss/create-t3-app/commit/f66e30a0c84eb4f74182d79b23e3c5e900788e10) Thanks [@Inshiku-Han](https://github.com/Inshiku-Han)! - Only install @trpc/next when router style is page router
+
+## 7.30.2
+
+### Patch Changes
+
+- [#1817](https://github.com/t3-oss/create-t3-app/pull/1817) [`d49300a`](https://github.com/t3-oss/create-t3-app/commit/d49300a4230835f6a771ed1a6b759c61c8902d7e) Thanks [@kxzazz](https://github.com/kxzazz)! - fix: `start-database.sh` is marked optional
+
+- [#1823](https://github.com/t3-oss/create-t3-app/pull/1823) [`f5c5db9`](https://github.com/t3-oss/create-t3-app/commit/f5c5db99dbd86010369b26e55dd65973ccd0db05) Thanks [@t3dotgg](https://github.com/t3dotgg)! - chore: update next to 14.2.1
+
+## 7.30.1
+
+### Patch Changes
+
+- [#1802](https://github.com/t3-oss/create-t3-app/pull/1802) [`41380d1`](https://github.com/t3-oss/create-t3-app/commit/41380d1cbf29418c3d60a2dcefd3eaf3f7e7bc28) Thanks [@c-ehrlich](https://github.com/c-ehrlich)! - fix: non planetscale env.js refers to YOUR_MYSQL_URL_HERE
+
+- [#1808](https://github.com/t3-oss/create-t3-app/pull/1808) [`fedd7b3`](https://github.com/t3-oss/create-t3-app/commit/fedd7b3926540fdf3137f327cac917237a438943) Thanks [@thecmdrunner](https://github.com/thecmdrunner)! - Apply drizzle-orm lint rules for `db` keyword only
+
+## 7.30.0
+
+### Minor Changes
+
+- [#1741](https://github.com/t3-oss/create-t3-app/pull/1741) [`5de586d`](https://github.com/t3-oss/create-t3-app/commit/5de586da1933064c9eef84ddae47d795e71afc53) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - feat: use trpc 11
+
+## 7.29.0
+
+### Minor Changes
+
+- [#1785](https://github.com/t3-oss/create-t3-app/pull/1785) [`57dc6ab`](https://github.com/t3-oss/create-t3-app/commit/57dc6ab0625d7cd56bf8f6b5c4d3b844421ffe48) Thanks [@thecmdrunner](https://github.com/thecmdrunner)! - Include ESLlint rules for `drizzle-orm`.
+
+- [#1794](https://github.com/t3-oss/create-t3-app/pull/1794) [`3cca996`](https://github.com/t3-oss/create-t3-app/commit/3cca9965739d29cc010e586406d40fff471a9bed) Thanks [@thecmdrunner](https://github.com/thecmdrunner)! - Use portable shebangs in scripts for nix systems
+
+## 7.28.0
+
+### Minor Changes
+
+- [#1777](https://github.com/t3-oss/create-t3-app/pull/1777) [`640a0e0`](https://github.com/t3-oss/create-t3-app/commit/640a0e086d1515f4f88315d3295b44296fe7bbd0) Thanks [@limegorilla](https://github.com/limegorilla)! - Warning about planetscale's serverless driver now only shown if using mySQL
+
+### Patch Changes
+
+- [#1778](https://github.com/t3-oss/create-t3-app/pull/1778) [`01badfb`](https://github.com/t3-oss/create-t3-app/commit/01badfb38caec5d0d211d7f93c6e288d55f2a751) Thanks [@DerTimonius](https://github.com/DerTimonius)! - fix: add missing default font in pagesDir
+
+- [#1766](https://github.com/t3-oss/create-t3-app/pull/1766) [`d7695df`](https://github.com/t3-oss/create-t3-app/commit/d7695df89a77ea5add1d703b63b9aeda5b5ef0c5) Thanks [@fuegoio](https://github.com/fuegoio)! - fix: cache database connection during development to prevent `Too many connections` due to HMR
+
+## 7.27.0
+
+### Minor Changes
+
+- [#1773](https://github.com/t3-oss/create-t3-app/pull/1773) [`8f29eb9`](https://github.com/t3-oss/create-t3-app/commit/8f29eb990ccbc36c018ce596d2de0205b3c7edac) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - feat(prisma): support correct typings when using `.extends()`
+
+### Patch Changes
+
+- [#1774](https://github.com/t3-oss/create-t3-app/pull/1774) [`0418663`](https://github.com/t3-oss/create-t3-app/commit/0418663ec6cc370ed1e067f1ef68f0d5ca41af53) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - chore: update drizzle-orm
+
+- [#1763](https://github.com/t3-oss/create-t3-app/pull/1763) [`836fccf`](https://github.com/t3-oss/create-t3-app/commit/836fccf22dc224e283a764649c16090e4ba42b18) Thanks [@skullface](https://github.com/skullface)! - fix: correct casing of “PlanetScale”
+
+- [#1764](https://github.com/t3-oss/create-t3-app/pull/1764) [`79e361c`](https://github.com/t3-oss/create-t3-app/commit/79e361cfd8ad0740a353c7712cad8d38cbc8ee7b) Thanks [@vlxm](https://github.com/vlxm)! - fix: fix password substitution in start-database scripts
+
+- [#1769](https://github.com/t3-oss/create-t3-app/pull/1769) [`c944c49`](https://github.com/t3-oss/create-t3-app/commit/c944c490522a3fb921d564ab55eecd8c535142c3) Thanks [@jhamill34](https://github.com/jhamill34)! - fix: generated comments in env file
+
+- [#1772](https://github.com/t3-oss/create-t3-app/pull/1772) [`c3c4710`](https://github.com/t3-oss/create-t3-app/commit/c3c4710b2e7e6245c0afae45e1a5119d91cb9578) Thanks [@mladenovic-13](https://github.com/mladenovic-13)! - fix: use singleton pattern for client-side QueryClient to support `useSuspenseQuery` when there is no parent `<Suspense>`-element
+
+- [#1748](https://github.com/t3-oss/create-t3-app/pull/1748) [`17c2a5e`](https://github.com/t3-oss/create-t3-app/commit/17c2a5eb52a7faff7ea9e1d1a6270c2216235ff2) Thanks [@aaronmallen](https://github.com/aaronmallen)! - add missing `pg` dev dependency when using postgres drizzle option, required for `drizzle-studio`
+
+## 7.26.0
+
+### Minor Changes
+
+- [#1622](https://github.com/t3-oss/create-t3-app/pull/1622) [`06b1bca`](https://github.com/t3-oss/create-t3-app/commit/06b1bcafe8751a0fc3cfb7992dfb12cb88bf0234) Thanks [@ronanru](https://github.com/ronanru)! - add more db options
+
+## 7.25.2
+
+### Patch Changes
+
+- [#1723](https://github.com/t3-oss/create-t3-app/pull/1723) [`c116281`](https://github.com/t3-oss/create-t3-app/commit/c116281f3626ae5f05191037789d7338a8fa2e5c) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - fix: don't pass cookies to CC
+
+- [#1728](https://github.com/t3-oss/create-t3-app/pull/1728) [`06ec5b3`](https://github.com/t3-oss/create-t3-app/commit/06ec5b37784c305d18a775b64d34cecb5de45bf2) Thanks [@Nsttt](https://github.com/Nsttt)! - fix missuse of binary expressions
+
 ## 7.25.1
 
 ### Patch Changes
